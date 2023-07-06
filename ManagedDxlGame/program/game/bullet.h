@@ -15,6 +15,6 @@ public:
 	void Instance(Player& player);
 };
 
-extern std::vector<Bullet> bulletList;
+extern std::vector<Bullet*> bulletList;
 
 extern Bullet bullet;
