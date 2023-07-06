@@ -16,3 +16,7 @@ void EnemyController::update(float delta_time) {
 void EnemyController::setup() {
     enemy.Instance();
 }
+void EnemyController::enemySetup(float delta_time) {
+    enemy.draw();
+    enemy.update(delta_time);
+}

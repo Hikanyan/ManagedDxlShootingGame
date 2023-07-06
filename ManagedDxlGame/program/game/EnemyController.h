@@ -7,6 +7,7 @@ public:
     void update(float delta_time);
     void draw();
     void setup();
+    void enemySetup(float delta_time);
 };
 
 extern EnemyController enemyController;
