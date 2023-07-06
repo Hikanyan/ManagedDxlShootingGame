@@ -32,7 +32,6 @@ void Bullet::draw() {
 void Bullet::Instance(Player& player) {
     // 新しい弾のインスタンスを生成し、位置を設定する
     Bullet* newBullet = new Bullet;
-    newBullet->is_Alive = true;
     newBullet->pos_.x = player.pos_.x;  // プレイヤーのx座標に弾を配置
     newBullet->pos_.y = player.pos_.y;  // プレイヤーのy座標に弾を配置
 

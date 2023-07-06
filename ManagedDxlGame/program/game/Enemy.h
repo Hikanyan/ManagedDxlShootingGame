@@ -17,5 +17,5 @@ public:
 	void Instance();
 };
 
-extern std::vector<Enemy> enemyList;
+extern std::vector<Enemy*> enemyList;
 extern Enemy enemy;
