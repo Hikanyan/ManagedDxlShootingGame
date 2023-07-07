@@ -6,8 +6,8 @@
 Player player;
 
 void Player::update(float delta_time) {
-	if (tnl::Input::IsKeyDown(eKeys::KB_A))pos_.x -= Player::MOVE_SPEED;
-	if (tnl::Input::IsKeyDown(eKeys::KB_D))pos_.x += Player::MOVE_SPEED;
+	if (pos_.x > 0 && tnl::Input::IsKeyDown(eKeys::KB_A))pos_.x -= Player::MOVE_SPEED;
+	if (pos_.x < DXE_WINDOW_WIDTH && tnl::Input::IsKeyDown(eKeys::KB_D))pos_.x += Player::MOVE_SPEED;
 	if (tnl::Input::IsKeyDown(eKeys::KB_SPACE)) bullet.Instance(player);
 }
 void Player::draw() {

@@ -146,6 +146,9 @@
     <ClCompile Include="program\game\player.cpp">
       <Filter>program\[003] game</Filter>
     </ClCompile>
+    <ClCompile Include="program\game\UserInterface.cpp">
+      <Filter>program\[003] game</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ManagedDxlGame.rc">
@@ -258,6 +261,9 @@
       <Filter>program\[003] game</Filter>
     </ClInclude>
     <ClInclude Include="program\game\player.h">
+      <Filter>program\[003] game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\game\UserInterface.h">
       <Filter>program\[003] game</Filter>
     </ClInclude>
   </ItemGroup>
