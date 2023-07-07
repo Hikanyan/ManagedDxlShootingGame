@@ -137,16 +137,16 @@
     <ClCompile Include="program\game\bullet.cpp">
       <Filter>program\[003] game</Filter>
     </ClCompile>
-    <ClCompile Include="program\game\Enemy.cpp">
+    <ClCompile Include="program\game\enemy.cpp">
       <Filter>program\[003] game</Filter>
     </ClCompile>
-    <ClCompile Include="program\game\EnemyController.cpp">
+    <ClCompile Include="program\game\enemy_controller.cpp">
       <Filter>program\[003] game</Filter>
     </ClCompile>
     <ClCompile Include="program\game\player.cpp">
       <Filter>program\[003] game</Filter>
     </ClCompile>
-    <ClCompile Include="program\game\UserInterface.cpp">
+    <ClCompile Include="program\game\user_interface.cpp">
       <Filter>program\[003] game</Filter>
     </ClCompile>
   </ItemGroup>
@@ -254,16 +254,16 @@
     <ClInclude Include="program\game\bullet.h">
       <Filter>program\[003] game</Filter>
     </ClInclude>
-    <ClInclude Include="program\game\Enemy.h">
+    <ClInclude Include="program\game\enemy.h">
       <Filter>program\[003] game</Filter>
     </ClInclude>
-    <ClInclude Include="program\game\EnemyController.h">
+    <ClInclude Include="program\game\enemy_controller.h">
       <Filter>program\[003] game</Filter>
     </ClInclude>
     <ClInclude Include="program\game\player.h">
       <Filter>program\[003] game</Filter>
     </ClInclude>
-    <ClInclude Include="program\game\UserInterface.h">
+    <ClInclude Include="program\game\user_interface.h">
       <Filter>program\[003] game</Filter>
     </ClInclude>
   </ItemGroup>
