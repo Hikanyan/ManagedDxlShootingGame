@@ -1,4 +1,4 @@
-#include "Enemy.h"
+#include "enemy.h"
 #include "../dxlib_ext/dxlib_ext.h"
 
 Enemy enemy;

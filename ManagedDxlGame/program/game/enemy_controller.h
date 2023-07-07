@@ -1,7 +1,7 @@
 #pragma once
-#include "Enemy.h"
+#include "enemy.h"
 
-class EnemyController {
+class enemy_controller {
 public:
     float time_ = 0;
     void update(float delta_time);
@@ -10,4 +10,4 @@ public:
     void enemySetup(float delta_time);
 };
 
-extern EnemyController enemyController;
+extern enemy_controller enemyController;
