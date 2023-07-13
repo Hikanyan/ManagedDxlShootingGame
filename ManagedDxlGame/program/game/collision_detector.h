@@ -1,11 +1,12 @@
 #pragma once
+#include "Collidable.h"
+#include <vector>
 
-//HitColliderは、当たり判定を行うオブジェクトのクラスです。
-class  HitCollider {
+class HitCollider {
 public:
-	float time_ = 0;
-	void update(float delta_time);
-	void draw();
-	void setup();
-	void hit_player_enemy();
+    void hit_player_enemy();
+    void hit_enemy_bullet();
+
+private:
+    void hit_collisions(const Collidable& object1, const std::vector<Collidable*>& objects2);
 };

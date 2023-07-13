@@ -12,6 +12,7 @@ public:
 	void update(float delta_time);
 	void draw();
 	void Instance(Player& player);
+
 };
 
 extern std::vector<Bullet*> bulletList;

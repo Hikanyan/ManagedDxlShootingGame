@@ -27,3 +27,30 @@ void HitCollider::hit_player_enemy() {
         }
     }
 }
+
+//’e‚Æ“G‚Ì“–‚½‚è”»’è
+void HitCollider::hit_enemy_bullet() {
+    //‚±‚ê‚Í“G‚Ì“–‚½‚è”»’è
+for (int i = 0; i < enemyList.size(); i++)
+	{
+		//‚±‚±‚Å“–‚½‚è”»’è‚ğs‚¤
+		for (int j = 0; j < bulletList.size(); j++)
+		{
+			bool hit = tnl::IsIntersectRectToCorrectPosition(
+				bulletList[j]->pos_, bulletList[j]->pos_, bulletList[j]->SIZE_WIDTH, bulletList[j]->SIZE_WIDTH,
+				enemyList[i]->pos_, enemyList[i]->SIZE_WIDTH, enemyList[i]->SIZE_WIDTH
+			);
+			//“–‚½‚Á‚Ä‚¢‚½‚ç
+			if (hit) {
+				//“G‚ÌHP‚ğŒ¸‚ç‚·
+				enemyList[i]->hp_ -= 1;
+				//’e‚ğÁ‚·
+				delete bulletList[j];
+				bulletList.erase(bulletList.begin() + j);
+				//’e‚ğÁ‚µ‚½‚çƒ‹[ƒv‚ğ”²‚¯‚é
+				break;
+			}
+		}
+	}
+}
+
