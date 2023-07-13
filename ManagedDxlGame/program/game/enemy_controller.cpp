@@ -1,6 +1,6 @@
-#include "enemyController.h"
 #include "../dxlib_ext/dxlib_ext.h"
 #include "enemy.h"
+#include "enemy_Controller.h"
 
 enemy_controller enemyController;
 

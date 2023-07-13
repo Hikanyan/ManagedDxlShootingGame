@@ -167,6 +167,7 @@
     <ClCompile Include="program\dxlib_ext\dxlib_ext_texture.cpp" />
     <ClCompile Include="program\dxlib_ext\OBJLoader.cpp" />
     <ClCompile Include="program\game\bullet.cpp" />
+    <ClCompile Include="program\game\collision_detector.cpp" />
     <ClCompile Include="program\game\enemy.cpp" />
     <ClCompile Include="program\game\enemy_controller.cpp" />
     <ClCompile Include="program\game\gm_main.cpp" />
@@ -202,6 +203,7 @@
     <ClInclude Include="program\dxlib_ext\dxlib_ext_texture.h" />
     <ClInclude Include="program\dxlib_ext\OBJLoader.h" />
     <ClInclude Include="program\game\bullet.h" />
+    <ClInclude Include="program\game\collision_detector.h" />
     <ClInclude Include="program\game\enemy.h" />
     <ClInclude Include="program\game\enemy_controller.h" />
     <ClInclude Include="program\game\gm_main.h" />

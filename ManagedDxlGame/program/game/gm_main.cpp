@@ -4,7 +4,7 @@
 #include "gm_main.h"
 #include "player.h"
 #include "bullet.h"
-#include "enemyController.h"
+#include "enemy_Controller.h"
 //------------------------------------------------------------------------------------------------------------
 // ゲーム起動時に１度だけ実行されます
 void gameStart() {
