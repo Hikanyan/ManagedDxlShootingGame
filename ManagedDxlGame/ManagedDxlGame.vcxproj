@@ -167,9 +167,11 @@
     <ClCompile Include="program\dxlib_ext\dxlib_ext_texture.cpp" />
     <ClCompile Include="program\dxlib_ext\OBJLoader.cpp" />
     <ClCompile Include="program\game\bullet.cpp" />
+    <ClCompile Include="program\game\Collidable.cpp" />
     <ClCompile Include="program\game\collision_detector.cpp" />
     <ClCompile Include="program\game\enemy.cpp" />
     <ClCompile Include="program\game\enemy_controller.cpp" />
+    <ClCompile Include="program\game\Entity.cpp" />
     <ClCompile Include="program\game\gm_main.cpp" />
     <ClCompile Include="program\game\player.cpp" />
     <ClCompile Include="program\game\user_interface.cpp" />
@@ -203,9 +205,11 @@
     <ClInclude Include="program\dxlib_ext\dxlib_ext_texture.h" />
     <ClInclude Include="program\dxlib_ext\OBJLoader.h" />
     <ClInclude Include="program\game\bullet.h" />
+    <ClInclude Include="program\game\Collidable.h" />
     <ClInclude Include="program\game\collision_detector.h" />
     <ClInclude Include="program\game\enemy.h" />
     <ClInclude Include="program\game\enemy_controller.h" />
+    <ClInclude Include="program\game\Entity.h" />
     <ClInclude Include="program\game\gm_main.h" />
     <ClInclude Include="program\game\player.h" />
     <ClInclude Include="program\game\user_interface.h" />

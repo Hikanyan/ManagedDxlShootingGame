@@ -5,6 +5,17 @@
 #include "player.h"
 #include "bullet.h"
 #include "enemy_Controller.h"
+#include "collision_detector.h"
+
+
+// 列挙型(enum)を使用してゲームの状態を定義する
+enum GameState {
+	Title,
+	PlayGame,
+	Result
+};
+
+GameState currentState;
 //------------------------------------------------------------------------------------------------------------
 // ゲーム起動時に１度だけ実行されます
 void gameStart() {
@@ -22,6 +33,7 @@ void gameMain(float delta_time) {
 	bullet.update(delta_time);
 	enemyController.enemySetup(delta_time);
 	enemyController.update(delta_time);
+	hit_collider.update(delta_time);
 }
 
 //------------------------------------------------------------------------------------------------------------

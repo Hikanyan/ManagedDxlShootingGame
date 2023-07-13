@@ -3,7 +3,7 @@
 
 class Player {
 public:
-	int hp_ = 10;
+	int hp_ = 1;
 	static constexpr int MOVE_SPEED = 5;
 	static constexpr int SIZE_WIDTH = 5;
 	static constexpr int SIZE_HEIGHT = 5;

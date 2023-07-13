@@ -21,6 +21,9 @@
     <Filter Include="program\[001] dxlib_ext\create_mesh">
       <UniqueIdentifier>{11d8e443-8d64-409c-92f1-6895cd2dbbce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="program\[003] game\Interface">
+      <UniqueIdentifier>{54036401-201a-409c-ab07-c829fadf533c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ManagedDxlGame.cpp">
@@ -152,6 +155,12 @@
     <ClCompile Include="program\game\enemy_controller.cpp">
       <Filter>program\[003] game</Filter>
     </ClCompile>
+    <ClCompile Include="program\game\Collidable.cpp">
+      <Filter>program\[003] game\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="program\game\Entity.cpp">
+      <Filter>program\[003] game\Interface</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ManagedDxlGame.rc">
@@ -271,6 +280,12 @@
     </ClInclude>
     <ClInclude Include="program\game\collision_detector.h">
       <Filter>program</Filter>
+    </ClInclude>
+    <ClInclude Include="program\game\Collidable.h">
+      <Filter>program\[003] game\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="program\game\Entity.h">
+      <Filter>program\[003] game\Interface</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
