@@ -140,9 +140,6 @@
     <ClCompile Include="program\game\enemy.cpp">
       <Filter>program\[003] game</Filter>
     </ClCompile>
-    <ClCompile Include="program\game\enemy_controller.cpp">
-      <Filter>program\[003] game</Filter>
-    </ClCompile>
     <ClCompile Include="program\game\player.cpp">
       <Filter>program\[003] game</Filter>
     </ClCompile>
@@ -151,6 +148,9 @@
     </ClCompile>
     <ClCompile Include="program\game\collision_detector.cpp">
       <Filter>program</Filter>
+    </ClCompile>
+    <ClCompile Include="program\game\enemy_controller.cpp">
+      <Filter>program\[003] game</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
